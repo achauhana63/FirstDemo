@@ -1,0 +1,21 @@
+package basics;
+
+import org.testng.annotations.Test;
+
+public class Practice {
+	@Test
+	public void demo7() {
+		System.out.println("hm7");
+	}
+
+	@Test(enabled = false)
+	public void demo9() {
+		System.out.println("hm9");
+	}
+
+	@Test
+	public void demo5() {
+		System.out.println("hm5");
+	}
+}
+
